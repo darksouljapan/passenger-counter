@@ -1,0 +1,69 @@
+body {
+    margin: 0px;
+    background-image: url("train-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Funnel Display", sans-serif;
+    font-weight: bold;
+    height: 100vh;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.test {
+    background-color: rgb(8, 28, 21, 0.7);
+    width: 400px;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: antiquewhite;
+    text-shadow: 1px 1px 2px black;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: antiquewhite;
+    text-shadow: 1px 1px 2px black;
+}
+
+p{
+    color: antiquewhite;
+    text-shadow: 1px 1px 2px black;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #b7e4c7;
+    color: #121212;
+}
+
+#save-btn {
+    background: #40916c;
+}
+
